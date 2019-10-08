@@ -2,8 +2,8 @@ package demo;
 
 import sun.misc.Unsafe;
 
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.LinkedTransferQueue;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -52,11 +52,8 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws InterruptedException {
-		Thread t=new Thread();
-		t.join();
-		ThreadLocal threadLocal=new ThreadLocal();
-		threadLocal.set(new Object());
-		threadLocal.get();
+
+
 
 
 	}
